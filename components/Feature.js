@@ -5,10 +5,10 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const features = [
-  "Powerfull online protection.",
-  "Internet without borders.",
-  "Supercharged VPN",
-  "No specific time limits."
+  "聆听您的建议",
+  "专业的运营团队",
+  "7*24小时服务",
+  "持续更新"
 ]
 
 const Feature = () => {
@@ -23,8 +23,8 @@ const Feature = () => {
         <ScrollAnimationWrapper className="flex w-full justify-end">
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
-              src="/assets/Illustration2.png"
-              alt="VPN Illustrasi"
+              src="https://ns.alsace.team/service/images/img/kefu.svg"
+              alt="客服"
               layout="responsive"
               quality={100}
               height={414}
@@ -34,18 +34,17 @@ const Feature = () => {
         </ScrollAnimationWrapper>
         <ScrollAnimationWrapper>
 
-        <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
+        <motion.div className="flex flex-col justify-center ml-auto lg:w-9/12" variants={scrollAnimation}>
           <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-            We Provide Many Features You Can Use
+            专业服务，随叫随到
           </h3>
-          <p className="my-2 text-black-500">
-            You can explore the features that we provide with fun and have their
-            own functions each feature.
+          <p className="my-2 text-black-500 lg:h-1/2">
+            遇到问题？我们的专业团队随时待命，提供优质的服务，您可以随时寻求服务器管理的帮助，确保您的创作无忧。
           </p>
           <ul className="text-black-500 self-start list-inside ml-8">
             {features.map((feature, index) => (
               <motion.li
-                className="relative circle-check custom-list"
+                className="relative circle-check custom-list lg:h-10"
                 custom={{duration: 2 + index}}
                 variants={scrollAnimation}
                 key={feature}
