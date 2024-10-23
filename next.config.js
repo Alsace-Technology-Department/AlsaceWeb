@@ -1,17 +1,18 @@
 module.exports = {
     images: {
+        unoptimized: true,
         remotePatterns: [
             {
                 protocol: 'https',
                 hostname: 'ns.alsace.team',
-                port: '',
+                port: '443',
                 pathname: '/service/images/**',
             },
             {
                 protocol: 'https',
                 hostname: 'minotar.net',
-                port: '',
-                pathname: '**',
+                port: '443',
+                pathname: '/**',
             },
         ],
     },
