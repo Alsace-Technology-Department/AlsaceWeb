@@ -2,7 +2,7 @@ import React from "react";
 
 const JoinServer = () => {
     return (
-        <div className="relative py-16" id="joinin">
+        <div className="relative" id="joinin">
             {/* 背景效果 */}
             <div
                 aria-hidden="true"

@@ -6,6 +6,7 @@ import {motion} from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import JoinServer from "./JoinServer";
+import ServerStatus from "./ServerStatus";
 
 const MapManager = () => {
     const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -35,7 +36,7 @@ const MapManager = () => {
                     <div
                         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 py-6 px-4 sm:px-2 lg:px-6">
                         <ScrollAnimationWrapper className="flex justify-center">
-                        <motion.div
+                            <motion.div
                                 variants={scrollAnimation}
                                 className="flex flex-col justify-between items-start text-left border border-gray-100 rounded-xl p-8 h-full hover:border-orange-500"
                                 whileHover={{
@@ -202,9 +203,15 @@ const MapManager = () => {
                             />
                             <img
                                 src="https://cloud.alsace.team/Picture/pic/体素公社.png?imageMogr2/format"
-                                className="h-12 w-auto mt-2 lg:mt-0"
+                                className="h-14 w-auto mt-2 lg:mt-0"
                                 alt=""
                             />
+                            <img
+                                src="https://ns.alsace.team/service/images/img/AAC9B47126791AE6B43DDDF82169B0B7.png?imageMogr2/format"
+                                className="h-16 w-auto mt-2 lg:mt-0"
+                                alt=""
+                            />
+
                         </motion.div>
                     </ScrollAnimationWrapper>
                 </div>
@@ -222,6 +229,7 @@ const MapManager = () => {
                         </motion.div>
                     </ScrollAnimationWrapper>
                     <JoinServer/>
+                    <ServerStatus/>
                     <ScrollAnimationWrapper className="relative w-full mt-16">
                         <motion.div variants={scrollAnimation} custom={{duration: 3}}>
                             <div

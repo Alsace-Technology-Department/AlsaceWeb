@@ -50,10 +50,16 @@ const Footer = () => {
                     <p className="text-black-600 mb-4 font-medium text-lg">友情链接</p>
                     <ul className="text-black-500 ">
                         <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-                            <a href="https://www.taixue.cc" target="_blank" rel="noopener noreferrer">太学Taixue</a>
+                            <a href="https://space.bilibili.com/3026194/" target="_blank"
+                               rel="noopener noreferrer">林氏創藝LinsCraft</a>
                         </li>
                         <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-                            <a href="https://innovacreation.art" target="_blank" rel="noopener noreferrer">新式创筑</a>
+                            <a href="https://space.bilibili.com/476720255" target="_blank"
+                               rel="noopener noreferrer">太学Taixue</a>
+                        </li>
+                        <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                            <a href="https://space.bilibili.com/102811746" target="_blank"
+                               rel="noopener noreferrer">新式创筑</a>
                         </li>
                         <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
                             <a href="https://space.bilibili.com/2106007357/" target="_blank"
@@ -72,15 +78,15 @@ const Footer = () => {
                     <p className="text-black-600 mb-4 font-medium text-lg">合作伙伴</p>
                     <ul className="text-black-500 ">
                         <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                            <a href="https://www.mualliance.cn" target="_blank"
+                               rel="noopener noreferrer">Minecraft高校联盟</a>
+                        </li>
+                        <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
                             <a href="https://www.rareloot.at/" target="_blank" rel="noopener noreferrer">RareLoot</a>
                         </li>
                         <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
                             <a href="https://mc-cloud-town.github.io/" target="_blank"
                                rel="noopener noreferrer">云镇工艺</a>
-                        </li>
-                        <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-                            <a href="https://www.mualliance.cn" target="_blank"
-                               rel="noopener noreferrer">Minecraft高校联盟</a>
                         </li>
                     </ul>
                 </div>
