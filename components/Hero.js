@@ -19,7 +19,7 @@ const Hero = ({
                       },
                       {
                           name: "日备份",
-                          number: "100",
+                          number: "50",
                           icon: "/assets/Icon/bx_bxs-server.svg",
                       },
                   ],
