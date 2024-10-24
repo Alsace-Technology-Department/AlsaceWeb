@@ -45,7 +45,11 @@ module.exports = {
       indigo: "#818cf8",
       purple: "#c084fc",
     },
-    extend: {},
+    extend: {
+      blur: {
+        gxl: '100px',
+      }
+    },
   },
   variants: {
     extend: {

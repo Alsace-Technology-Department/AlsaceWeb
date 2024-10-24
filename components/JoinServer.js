@@ -9,8 +9,8 @@ const JoinServer = () => {
                 className="absolute inset-0 w-full h-full grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20"
             >
                 <div
-                    className="blur-[106px] h-56 bg-gradient-to-br from-orange-500 to-purple"></div>
-                <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan to-blue"></div>
+                    className="blur-gxl filter h-56 bg-gradient-to-br from-orange-500 to-purple"></div>
+                <div className="blur-gxl h-32 bg-gradient-to-r from-cyan to-blue"></div>
             </div>
 
             {/* Container */}
