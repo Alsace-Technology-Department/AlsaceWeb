@@ -34,12 +34,12 @@ const Hero = ({
                     variants={scrollAnimation}
                 >
                     <div className="flex flex-col justify-center items-start row-start-2 md:row-start-1">
-                        <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
+                        <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium leading-normal" style={{ color: '#333333' }}>
                             阿尔萨斯工业园社区
                             <br />
                             <strong>Usine d' Alsace Community</strong>.
                         </h1>
-                        <p className="text-black-500 mt-4 mb-6">
+                        <p className="mt-4 mb-6" style={{ color: '#696969' }}>
                             成立于2020年，由阿尔萨斯工业团队倾力运营与维护。
                             <br />
                             我们致力于为玩家打造一个安全、稳定、便捷且自由的 Minecraft
@@ -86,10 +86,10 @@ const Hero = ({
                                     <img src={listUsers.icon} className="h-6 w-6" alt="图标" />
                                 </div>
                                 <div className="flex flex-col">
-                                    <p className="text-xl text-black-600 font-bold">
+                                    <p className="text-xl font-bold" style={{ color: '#de616a' }}>
                                         {listUsers.number}+
                                     </p>
-                                    <p className="text-lg text-black-500">{listUsers.name}</p>
+                                    <p className="text-lg" style={{ color: '#737373' }}>{listUsers.name}</p>
                                 </div>
                             </div>
                         </motion.div>

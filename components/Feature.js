@@ -34,14 +34,14 @@ const Feature = () => {
         </ScrollAnimationWrapper>
         <ScrollAnimationWrapper>
 
-        <motion.div className="flex flex-col justify-center ml-auto lg:w-9/12" variants={scrollAnimation}>
-          <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
+        <motion.div className="flex flex-col justify-center mt-20 lg:w-9/12" variants={scrollAnimation}>
+          <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed" style={{color: "#de616a"}}>
             专业服务，随叫随到
           </h3>
           <p className="my-2 text-black-500 lg:h-1/2">
             遇到问题？我们的专业团队随时待命，提供优质的服务，您可以随时寻求服务器管理的帮助，确保您的创作无忧。
           </p>
-          <ul className="text-black-500 self-start list-inside ml-8">
+          <ul className="text-black-500 self-start list-inside ml-8 mt-5">
             {features.map((feature, index) => (
               <motion.li
                 className="relative circle-check custom-list lg:h-10"

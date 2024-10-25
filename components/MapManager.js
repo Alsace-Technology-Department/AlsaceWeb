@@ -22,13 +22,15 @@ const MapManager = () => {
                     <ScrollAnimationWrapper>
                         <motion.h3
                             variants={scrollAnimation}
-                            className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed"
+                            className="text-2xl sm:text-3xl lg:text-4xl font-medium leading-relaxed"
+                            style={{color: "#de616a"}}
                         >
                             地图托管
                         </motion.h3>
                         <motion.p
                             variants={scrollAnimation}
                             className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
+                            style={{color: "#787878"}}
                         >
                             我们提供优质的地图托管服务，您可以申请免费、安全的私人地图。
                         </motion.p>
@@ -52,7 +54,10 @@ const MapManager = () => {
                                         alt="安全的防护策略"
                                     />
                                 </div>
-                                <p className="text-2xl font-semibold text-black-600 my-6">
+                                <p 
+                                    className="text-2xl font-semibold my-6"
+                                    style={{color: "#474747"}}
+                                >
                                     安全的防护策略
                                 </p>
                                 <ul className="text-black-500 text-base space-y-4 leading-relaxed list-inside flex-grow">
@@ -83,7 +88,10 @@ const MapManager = () => {
                                         alt="便捷的服务"
                                     />
                                 </div>
-                                <p className="text-2xl font-semibold text-black-600 my-6">
+                                <p 
+                                    className="text-2xl font-semibold my-6"
+                                    style={{color: "#474747"}}
+                                >
                                     便捷的服务
                                 </p>
                                 <ul className="text-black-500 text-base space-y-4 leading-relaxed list-inside flex-grow">
@@ -114,7 +122,10 @@ const MapManager = () => {
                                         alt="独立的权限管理"
                                     />
                                 </div>
-                                <p className="text-2xl font-semibold text-black-600 my-6">
+                                <p 
+                                    className="text-2xl font-semibold my-6"
+                                    style={{color: "#474747"}}
+                                >
                                     独立的权限管理
                                 </p>
                                 <ul className="text-black-500 text-base space-y-4 leading-relaxed list-inside flex-grow">
@@ -145,7 +156,10 @@ const MapManager = () => {
                                         alt="私人的创作空间"
                                     />
                                 </div>
-                                <p className="text-2xl font-semibold text-black-600 my-6">
+                                <p 
+                                    className="text-2xl font-semibold my-6"
+                                    style={{color: "#474747"}}
+                                >
                                     私人的创作空间
                                 </p>
                                 <ul className="text-black-500 text-base space-y-4 leading-relaxed list-inside flex-grow">
@@ -165,7 +179,9 @@ const MapManager = () => {
                     <ScrollAnimationWrapper>
                         <motion.h3
                             variants={scrollAnimation}
-                            className="text-xl sm:text-2xl lg:text-3xl font-medium text-black-600 leading-relaxed w-6/12 sm:w-6/12 lg:w-4/12 mx-auto">
+                            className="text-xl sm:text-2xl lg:text-3xl font-medium text-black-600 leading-relaxed w-6/12 sm:w-6/12 lg:w-4/12 mx-auto"
+                            style={{color: "#404040"}}
+                            >
                             他们也在使用地图托管服务
                         </motion.h3>
                         <motion.p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12"
@@ -219,7 +235,9 @@ const MapManager = () => {
                     <ScrollAnimationWrapper>
                         <motion.h3
                             variants={scrollAnimation}
-                            className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
+                            className="text-2xl sm:text-3xl lg:text-4xl font-medium leading-normal w-9/12 sm: lg:w-4/12 mx-auto"
+                            style={{color: "#404040"}}
+                            >
                             聆听大家的声音
                         </motion.h3>
                     </ScrollAnimationWrapper>
@@ -235,10 +253,13 @@ const MapManager = () => {
                             <div
                                 className="absolute rounded-xl  py-8 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col sm:flex-row justify-between items-center z-10 bg-white-500">
                                 <div className="flex flex-col text-left w-10/12 sm:w-7/12 lg:w-5/12 mb-6 sm:mb-0">
-                                    <h5 className="text-black-600 text-xl sm:text-2xl lg:text-3xl leading-relaxed font-medium">
+                                    <h5 
+                                        className="text-xl sm:text-2xl lg:text-3xl leading-relaxed font-medium"
+                                        style={{color: "#de6a6a"}}
+                                    >
                                         阿尔萨斯工业团队
                                     </h5>
-                                    <p>负责运营和维护工业园社区，加入我们！</p>
+                                    <p style={{color: "#8a8a8a"}}>负责运营和维护工业园社区，加入我们！</p>
                                 </div>
                                 <a href="https://alsaceteam.feishu.cn/wiki/T1xBwlGxSiL123kMAPicIZ0DnYe">
                                     <ButtonPrimary>入团方式</ButtonPrimary>
