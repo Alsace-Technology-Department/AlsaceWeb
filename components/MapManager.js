@@ -61,7 +61,7 @@ const MapManager = () => {
                                     <li>服务器每天备份超过100次，还有异地容灾备份。</li>
                                     <li>使用自主研发的工业园基础框架，不用担心任何安全问题。</li>
                                 </ul>
-                                <a href="#" className="mt-6 text-gray-400 text-sm">
+                                <a href="https://map.alsace.team" className="mt-6 text-gray-400 text-sm">
                                     了解更多
                                 </a>
                             </motion.div>
@@ -92,7 +92,7 @@ const MapManager = () => {
                                     <li>您可以随时通过安全密码来下载您的地图。</li>
                                     <li>您只需要填写申请表，审核通过后便可使用地图托管服务。</li>
                                 </ul>
-                                <a href="#" className="mt-6 text-gray-400 text-sm">
+                                <a href="https://map.alsace.team" className="mt-6 text-gray-400 text-sm">
                                     了解更多
                                 </a>
                             </motion.div>
@@ -123,7 +123,7 @@ const MapManager = () => {
                                     <li>访客访问可以向您的客户或其他玩家展示您的建筑。</li>
                                     <li>您也可以使用web页面管理地图权限。</li>
                                 </ul>
-                                <a href="#" className="mt-6 text-gray-400 text-sm">
+                                <a href="https://map.alsace.team" className="mt-6 text-gray-400 text-sm">
                                     了解更多
                                 </a>
                             </motion.div>
@@ -153,7 +153,7 @@ const MapManager = () => {
                                     <li>您自己的世界没有世界边界，没有区域限制，您可以在私人世界里自由建造。</li>
                                     <li>您甚至可以理解为您的地图就是您的私人服务器。</li>
                                 </ul>
-                                <a href="#" className="mt-6 text-gray-400 text-sm">
+                                <a href="https://map.alsace.team" className="mt-6 text-gray-400 text-sm">
                                     了解更多
                                 </a>
                             </motion.div>

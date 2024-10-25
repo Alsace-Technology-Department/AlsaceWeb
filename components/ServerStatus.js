@@ -10,7 +10,7 @@ const RandomStyleImage = () => {
 
     // 生成 1 到 6 之间的随机数
     useEffect(() => {
-        const randomStyle = Math.floor(Math.random() * 6) + 1;
+        const randomStyle = Math.floor(Math.random() * 4) + 1;
         setStyleNumber(randomStyle);
     }, []);
 
@@ -19,7 +19,7 @@ const RandomStyleImage = () => {
             <motion.div variants={scrollAnimation} custom={{ duration: 3 }}>
                 <img
                     className="py-8 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col sm:flex-row justify-between items-center rounded-xl"
-                    src={`https://motd.puddingkc.com/status.png?ip=alsace.work&style=style${styleNumber}`}
+                    src={`https://motd.puddingkc.com/status.png?ip=alsace.work&style=alsace_style${styleNumber}`}
                     alt="服务器在线人数"
                 />
             </motion.div>
