@@ -62,7 +62,10 @@ const JoinServer = () => {
 
                     {/* 加入服务器信息 */}
                     <div className="mt-6 m-auto space-y-6 md:w-8/12 lg:w-7/12" id="join">
-                        <h1 className="text-center text-4xl font-bold text-gray-800 dark:text-white md:text-5xl">
+                        <h1 
+                            className="text-center text-4xl font-bold text-gray-800 dark:text-white md:text-5xl"
+                            style={{color: "#de6a6a"}}
+                        >
                             加入服务器
                         </h1>
                         <p className="text-center text-xl text-gray-600 dark:text-gray-300">
@@ -76,7 +79,9 @@ const JoinServer = () => {
                                 href="https://ns.alsace.team/service/client/AlsaceClient.zip"
                                 className="relative flex h-12 w-full items-center justify-center px-8 before:absolute before:inset-0 before:rounded-xl before:bg-orange-100 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
                             >
-                <span className="relative text-base font-semibold text-white dark:text-dark">
+                <span className="relative text-base font-semibold text-white dark:text-dark"
+                    style={{color: "#de6a6a"}}
+                >
                   下载客户端
                 </span>
                             </a>
@@ -85,7 +90,9 @@ const JoinServer = () => {
                                 href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=lye5_f07h2-LB0DEs9sxzput7c87n7Bn&authKey=JsADenzz4Vrc3c4PhGY3rnzEoikWmIR9o8W5TtM7yJ8lkGO%2FsmE%2Fdbb0ziKAe%2Bd0&noverify=0&group_code=916435182"
                                 className="relative flex h-12 w-full items-center justify-center px-8 before:absolute before:inset-0 before:rounded-xl before:bg-orange-500 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
                             >
-                <span className="relative text-base font-semibold text-primary dark:text-white">
+                <span className="relative text-base font-semibold text-white dark:text-white"
+                    style={{color: "#fff"}}
+                >
                   加入交流群
                 </span>
                             </a>
