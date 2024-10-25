@@ -179,37 +179,37 @@ const MapManager = () => {
                             <img
                                 src="https://www.mualliance.cn/wp-content/uploads/2023/01/e0bedcf698b6720dc1b847b1d102859c9d568364.jpg"
                                 className="h-14 w-auto mt-4 lg:mt-2"
-                                alt=""
-                            />
-                            <img
-                                src="https://www.mualliance.cn/wp-content/uploads/2023/10/STDBUcraft-cyan-bg-w.png"
-                                className="h-14 w-auto mt-2 lg:mt-0"
-                                alt=""
+                                alt="东南大学新标社"
                             />
                             <img
                                 src="https://ns.alsace.team/service/images/img/196B4D40BCCA649AF2BF32F52347CC96.png?imageMogr2/format"
                                 className="h-24 w-auto mt-2 lg:mt-0"
-                                alt=""
+                                alt="沉梦之渊"
+                            />
+                            <img
+                                src="https://www.mualliance.cn/wp-content/uploads/2023/10/STDBUcraft-cyan-bg-w.png"
+                                className="h-14 w-auto mt-2 lg:mt-0"
+                                alt="山商煤炭社"
                             />
                             <img
                                 src="https://ns.alsace.team/service/images/logo/logo-web.webp"
                                 className="h-14 w-auto mt-2 lg:mt-0"
-                                alt=""
-                            />
-                            <img
-                                src="https://ns.alsace.team/service/images/img/CA0F04CB3289275DD35780E1F9E52074.jpg?imageMogr2/format"
-                                className="h-12 w-auto mt-2 lg:mt-0"
-                                alt=""
+                                alt="阿尔萨斯工业"
                             />
                             <img
                                 src="https://cloud.alsace.team/Picture/pic/体素公社.png?imageMogr2/format"
                                 className="h-14 w-auto mt-2 lg:mt-0"
-                                alt=""
+                                alt="体素公社"
+                            />
+                            <img
+                                src="https://ns.alsace.team/service/images/img/CA0F04CB3289275DD35780E1F9E52074.jpg?imageMogr2/format"
+                                className="h-12 w-auto mt-2 lg:mt-0"
+                                alt="ZANDTOPIA"
                             />
                             <img
                                 src="https://ns.alsace.team/service/images/img/AAC9B47126791AE6B43DDDF82169B0B7.png?imageMogr2/format"
                                 className="h-16 w-auto mt-2 lg:mt-0"
-                                alt=""
+                                alt="辞源坊"
                             />
 
                         </motion.div>

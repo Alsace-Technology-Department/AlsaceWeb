@@ -4,6 +4,7 @@ import QQ from "../../public/assets/Icon/QQ_tencent-qq.svg";
 import Twitter from "../../public/assets/Icon/twitter.svg";
 import Youtube from "../../public/assets/Icon/youtube.svg";
 import Discord from "../../public/assets/Icon/discord-line.svg";
+import Bilibili from "../../public/assets/Icon/tv.svg"
 
 const Footer = () => {
     return (
@@ -31,6 +32,11 @@ const Footer = () => {
                             </a>
                         </div>
                         <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+                            <a href={"https://space.bilibili.com/47983516"}>
+                                <Bilibili className="h-6 w-6"/>
+                            </a>
+                        </div>
+                        <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
                             <a href={"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Or0lLwYEHFzY_D7hZUoHKp4ANjrGdfuX&authKey=Yzlq2b8X8N%2BsyelDeDHs7Rym8Fl85Pzxn7rE8tVXdjhZIUsBql9ZVuGdwfZ1cKmE&noverify=0&group_code=916435182"}>
                                 <QQ className="h-6 w-6"/>
                             </a>
@@ -54,11 +60,11 @@ const Footer = () => {
                                rel="noopener noreferrer">林氏創藝LinsCraft</a>
                         </li>
                         <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-                            <a href="https://space.bilibili.com/476720255" target="_blank"
+                            <a href="https://team.taixue.cc" target="_blank"
                                rel="noopener noreferrer">太学Taixue</a>
                         </li>
                         <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-                            <a href="https://space.bilibili.com/102811746" target="_blank"
+                            <a href="https://innovacreation.art" target="_blank"
                                rel="noopener noreferrer">新式创筑</a>
                         </li>
                         <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
