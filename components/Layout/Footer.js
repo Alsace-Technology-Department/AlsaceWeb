@@ -19,7 +19,7 @@ const Footer = () => {
                     </p>
                     <div className="flex w-full mt-2 mb-8 -mx-2">
                         <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-                            <a href={"mailto:business@alsace.team"}><Mail className="h-6 w-6"/></a>
+                            <a href={"mailto:tech@alsace.team"}><Mail className="h-6 w-6"/></a>
                         </div>
                         <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
                             <a href={"https://twitter.com/alsaceteam"}>
@@ -92,7 +92,7 @@ const Footer = () => {
                         </li>
                         <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
                             <a href="https://mc-cloud-town.github.io/" target="_blank"
-                               rel="noopener noreferrer">云镇工艺</a>
+                               rel="noopener noreferrer">雲鎮工藝CTEC</a>
                         </li>
                     </ul>
                 </div>
@@ -104,7 +104,7 @@ const Footer = () => {
                                rel="noopener noreferrer">加入我们</a>
                         </li>
                         <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-                            <a href="mailto:business@alsace.team">商务合作</a>
+                            <a href="mailto:tech@alsace.team">技术合作</a>
                         </li>
                         <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
                             <a href="https://space.bilibili.com/47983516" target="_blank"
@@ -115,7 +115,8 @@ const Footer = () => {
                                target="_blank" rel="noopener noreferrer">社区交流群</a>
                         </li>
                         <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-
+                            <a href="/buildcontest"
+                               target="_blank" rel="noopener noreferrer">承接各类Minecraft建筑比赛举办</a>
                         </li>
                     </ul>
                 </div>

@@ -28,7 +28,6 @@ const Hero = ({
 
     return (
         <div className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto" id="about">
-            <ScrollAnimationWrapper>
                 <motion.div
                     className="grid grid-flow-row md:grid-flow-col grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-8 py-6 sm:py-16"
                     variants={scrollAnimation}
@@ -40,12 +39,11 @@ const Hero = ({
                             <strong>Usine d' Alsace Community</strong>.
                         </h1>
                         <p className="text-black-500 mt-4 mb-6">
-                            成立于2020年，由阿尔萨斯工业团队倾力运营与维护。
+                            阿尔萨斯工业园社区成立于2020年，是一个拥有资深运营管理经验的 Minecraft 公益建筑服务器由阿尔萨斯工业团队倾力运营与维护，面向所有热爱建筑玩法的玩家。
                             <br />
                             我们致力于为玩家打造一个安全、稳定、便捷且自由的 Minecraft
                             服务器社区。在这里，创造和想象力没有边界，只等待像你这样的艺术家加入。
-                            <br />
-                            工业园不仅仅是一个建筑服务器，它是一个汇聚创意、技术与乐趣的社区。
+
                         </p>
                         <a
                             href={
@@ -68,7 +66,6 @@ const Hero = ({
                         </motion.div>
                     </div>
                 </motion.div>
-            </ScrollAnimationWrapper>
 
             <div className="relative w-full flex">
                 <ScrollAnimationWrapper

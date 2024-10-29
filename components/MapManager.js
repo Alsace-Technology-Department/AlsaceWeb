@@ -215,7 +215,56 @@ const MapManager = () => {
                         </motion.div>
                     </ScrollAnimationWrapper>
                 </div>
+
                 <div className="flex flex-col w-full my-16" id="testimoni">
+                    <div className="py-4 my-6 max-w-screen-md mx-auto text-center">
+                        <ScrollAnimationWrapper>
+                            <motion.div variants={scrollAnimation}>
+                                <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
+                                    用心欢迎玩家
+                                </h3>
+                                <p className="mt-4 text-black-500">
+                                    我们管理团队十分关切每一位玩家的游戏体验，希望热心的玩家们提出自己宝贵的意见，每一份建议对我们来说都弥足珍贵，来帮助我们建设更好的阿尔萨斯工业园社区。 </p>
+                                <p className="mt-4 text-black-500">
+                                    <b>在这里，任何疑问都能获得耐心的解答。</b>
+                                </p>
+                            </motion.div>
+                        </ScrollAnimationWrapper>
+                    </div>
+
+                    <div
+                        className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 py-8 my-12 relative">
+                        <ScrollAnimationWrapper className="flex w-full justify-start">
+                            <motion.div className="flex flex-col justify-center lg:w-9/12" variants={scrollAnimation}>
+                                <h3 className="text-xl lg:text-2xl font-medium leading-relaxed text-black-600">
+                                    良好的社区氛围
+                                </h3>
+                                <p className="my-2 text-black-500 lg:h-1/2 pt-2 pb-3">
+                                    工业园致力营造一个和谐友善的玩家社区，希望玩家能够在纷忙的互联网世界里找到一隅安宁之地。
+                                </p>
+                                <p className="my-2 text-black-500 lg:h-1/2 pt-2 pb-3">
+                                    我们欢迎所有热爱体素艺术的玩家加入，无论你是拥有多年建筑经验的大神，还是只会造火柴盒的萌新，我们都欢迎你的到来。
+                                </p>
+                            </motion.div>
+                        </ScrollAnimationWrapper>
+                        <ScrollAnimationWrapper>
+                            <motion.div className="flex flex-col justify-center ml-auto lg:w-9/12"
+                                        variants={scrollAnimation}>
+                                <h3 className="text-xl lg:text-2xl font-medium leading-relaxed text-black-600">
+                                    便捷的社区服务
+                                </h3>
+                                <p className="my-2 text-black-500 lg:h-1/2 pt-2 pb-3">
+                                    工业园的规则并不复杂，我们一切以用户体验为主，诚以热爱打造社区。
+                                    希望你能在工业园享受自由自在地建筑。
+                                </p>
+                                <p className="my-2 text-black-500 lg:h-1/2 pt-2 pb-3">
+                                    在这里，无论是地皮还是私人世界，没有任何领取的门槛。
+                                    无限空间献给你无限的创造力。还有很多你意想不到的功能等待你的探索。
+                                </p>
+                            </motion.div>
+                        </ScrollAnimationWrapper>
+                    </div>
+
                     <ScrollAnimationWrapper>
                         <motion.h3
                             variants={scrollAnimation}

@@ -60,7 +60,7 @@ const Header = () => {
                                     : " text-black-500 hover:text-orange-500 ")
                             }
                         >
-                            专业服务
+                            介绍
                         </LinkScroll>
                         <LinkScroll
                             activeClass="active"
@@ -96,7 +96,7 @@ const Header = () => {
                                     : " text-black-500 hover:text-orange-500 ")
                             }
                         >
-                            玩家评价
+                            为什么选择我们
                         </LinkScroll>
                     </ul>
                     <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
