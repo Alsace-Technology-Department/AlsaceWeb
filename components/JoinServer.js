@@ -1,12 +1,13 @@
 import React from "react";
+import ServerStatus from "./ServerStatus";
 
 const JoinServer = () => {
     return (
-        <div className="relative" id="joinin">
+        <div className="relative py-14" id="joinin">
             {/* 背景效果 */}
             <div
                 aria-hidden="true"
-                className="absolute inset-0 w-full h-full grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20"
+                className="absolute inset-0 w-full h-full grid grid-cols-2 -space-x-72 opacity-40"
             >
                 <div
                     className="blur-gxl filter h-56 bg-gradient-to-br from-orange-500 to-purple"></div>
@@ -91,6 +92,7 @@ const JoinServer = () => {
                             </a>
                         </div>
                     </div>
+                    <ServerStatus/>
                 </div>
             </div>
         </div>

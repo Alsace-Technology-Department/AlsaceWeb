@@ -18,7 +18,7 @@ const RandomStyleImage = () => {
         <ScrollAnimationWrapper className="w-full mt-16">
             <motion.div variants={scrollAnimation} custom={{ duration: 3 }}>
                 <img
-                    className="py-8 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col sm:flex-row justify-between items-center rounded-xl"
+                    className="pt-6 sm:pt-10 px-6 sm:px-12 lg:px-16 w-full flex flex-col sm:flex-row justify-between items-center rounded-xl"
                     src={`https://motd.puddingkc.com/status.png?ip=alsace.work&style=alsace_style${styleNumber}`}
                     alt="服务器在线人数"
                 />
