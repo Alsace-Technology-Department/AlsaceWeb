@@ -1,12 +1,9 @@
 import React, {useMemo} from "react";
 import Image from "next/image";
 import Testimoni from "./Testimoni";
-import ButtonPrimary from "./misc/ButtonPrimary";
 import {motion} from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
-import JoinServer from "./JoinServer";
-import ServerStatus from "./ServerStatus";
 
 const MapManager = () => {
     const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -179,7 +176,7 @@ const MapManager = () => {
                             <img
                                 src="https://www.mualliance.cn/wp-content/uploads/2023/01/e0bedcf698b6720dc1b847b1d102859c9d568364.jpg"
                                 className="h-14 w-auto mt-4 lg:mt-2"
-                                alt="东南大学新标社"
+                                alt="东南大学信标社"
                             />
                             <img
                                 src="https://ns.alsace.team/service/images/img/196B4D40BCCA649AF2BF32F52347CC96.png?imageMogr2/format"

@@ -116,7 +116,12 @@ const Footer = () => {
                         </li>
                         <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
                             <a href="/buildcontest"
-                               target="_blank" rel="noopener noreferrer">承接各类Minecraft建筑比赛举办</a>
+                               target="_blank" rel="noopener noreferrer">承接各类Minecraft建筑比赛</a>
+                        </li>
+                        <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                            <a href="mailto:business@alsace.team"
+                               target="_blank" rel="noopener noreferrer"
+                               title="与工业园社区服无关，商业建筑会在特定服务器制作">服务端、建筑地图、插件定制服务</a>
                         </li>
                     </ul>
                 </div>

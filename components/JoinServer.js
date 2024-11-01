@@ -67,7 +67,7 @@ const JoinServer = () => {
                             加入服务器
                         </h1>
                         <p className="text-center text-xl text-gray-600 dark:text-gray-300">
-                            工业园可以直接在任意 1.12.2-1.21 的客户端使用 IP：<b>alsace.work</b>{" "}
+                            工业园可以直接在任意 1.16.x-1.21.x 的客户端使用 IP：<b>alsace.work</b>{" "}
                             进入。<br/>
                         </p>
 
