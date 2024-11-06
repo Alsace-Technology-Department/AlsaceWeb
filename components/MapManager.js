@@ -55,8 +55,8 @@ const MapManager = () => {
                                 <ul className="text-black-500 text-base space-y-4 leading-relaxed list-inside flex-grow">
                                     <li>安全地将您的地图存储在我们的服务器。</li>
                                     <li>担心地图风险？不怕，我们可以提供最高安全的服务。</li>
-                                    <li>服务器每天备份超过100次，还有异地容灾备份。</li>
-                                    <li>使用自主研发的工业园基础框架，不用担心任何安全问题。</li>
+                                    <li>服务器每天备份超过50次，还有异地容灾备份。</li>
+                                    <li>完全自动化的地图托管系统，管理员也无法访问地图文件。</li>
                                 </ul>
                                 <a href="https://map.alsace.team" className="mt-6 text-gray-400 text-sm">
                                     了解更多
@@ -85,9 +85,9 @@ const MapManager = () => {
                                 </p>
                                 <ul className="text-black-500 text-base space-y-4 leading-relaxed list-inside flex-grow">
                                     <li>随时随地自由下载、访问、分享您的作品。</li>
-                                    <li>使用web端管理平台，用可视化的工具管理你的地图。</li>
+                                    <li>使用web端管理平台，用可视化的工具管理和申请地图。</li>
                                     <li>您可以随时通过安全密码来下载您的地图。</li>
-                                    <li>您只需要填写申请表，审核通过后便可使用地图托管服务。</li>
+                                    <li>您不需要维护服务器，只需要专心完成作品。</li>
                                 </ul>
                                 <a href="https://map.alsace.team" className="mt-6 text-gray-400 text-sm">
                                     了解更多
