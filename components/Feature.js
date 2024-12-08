@@ -98,7 +98,7 @@ const Feature = () => {
                 <ScrollAnimationWrapper className="flex w-full justify-end">
                     <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
                         <img
-                            src="https://cloud.alsace.team/Picture/pic/hanamizu.png"
+                            src="https://ns.alsace.team/service/images/img/hanamizu.png"
                             alt="拿着小木斧的花水"
                             height={414}
                         />
