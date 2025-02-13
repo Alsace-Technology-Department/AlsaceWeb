@@ -51,14 +51,9 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} next export
         working-directory: .
 
-      - name: Set up Python 3.10
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-
       - name: 安装腾讯云依赖
         run: |
-          sudo pip install coscmd
+          sudo pip install https://github.com/tencentyun/coscmd/archive/refs/heads/master.zip
           sudo pip install tccli
 
       - name: 配置腾讯云依赖
