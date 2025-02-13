@@ -68,6 +68,10 @@ const Footer = () => {
                                rel="noopener noreferrer">新式创筑</a>
                         </li>
                         <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                            <a href="https://space.bilibili.com/319088654" target="_blank"
+                               rel="noopener noreferrer">超新星团SuperNova</a>
+                        </li>
+                        <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
                             <a href="https://space.bilibili.com/2106007357/" target="_blank"
                                rel="noopener noreferrer">体素乌托邦VoxelUtopia</a>
                         </li>

@@ -9,17 +9,17 @@ const Hero = ({
                   listUser = [
                       {
                           name: "用户",
-                          number: "300",
+                          number: "500",
                           icon: "/assets/Icon/heroicons_sm-user.svg",
                       },
                       {
                           name: "日活跃",
-                          number: "20",
+                          number: "60",
                           icon: "/assets/Icon/gridicons_location.svg",
                       },
                       {
                           name: "日备份",
-                          number: "50",
+                          number: "100",
                           icon: "/assets/Icon/bx_bxs-server.svg",
                       },
                   ],
