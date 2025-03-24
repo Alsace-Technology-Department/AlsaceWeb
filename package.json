@@ -24,5 +24,13 @@
   },
   "devDependencies": {
     "babel-plugin-inline-react-svg": "^1.1.2"
+  },
+  "resolutions": {
+    "@next/swc-darwin-x64": "12.3.4",
+    "@next/swc-freebsd-x64": "12.3.4",
+    "@next/swc-android-arm64": "12.3.4",
+    "@next/swc-android-arm-eabi": "12.3.4",
+    "@next/swc-linux-arm64-gnu": "12.3.4",
+    "@next/swc-linux-arm64-musl": "12.3.4"
   }
 }
