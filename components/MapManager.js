@@ -59,7 +59,7 @@ const MapManager = () => {
                                     <li>完全自动化的地图托管系统，管理员也无法访问地图文件。</li>
                                 </ul>
                                 <a href="https://map.alsace.team" className="mt-6 text-gray-400 text-sm">
-                                    了解更多
+                                    立即申请
                                 </a>
                             </motion.div>
                         </ScrollAnimationWrapper>
@@ -90,7 +90,7 @@ const MapManager = () => {
                                     <li>您不需要维护服务器，只需要专心完成作品。</li>
                                 </ul>
                                 <a href="https://map.alsace.team" className="mt-6 text-gray-400 text-sm">
-                                    了解更多
+                                    立即申请
                                 </a>
                             </motion.div>
                         </ScrollAnimationWrapper>
@@ -121,7 +121,7 @@ const MapManager = () => {
                                     <li>您也可以使用web页面管理地图权限。</li>
                                 </ul>
                                 <a href="https://map.alsace.team" className="mt-6 text-gray-400 text-sm">
-                                    了解更多
+                                    立即申请
                                 </a>
                             </motion.div>
                         </ScrollAnimationWrapper>
@@ -151,7 +151,7 @@ const MapManager = () => {
                                     <li>您甚至可以理解为您的地图就是您的私人服务器。</li>
                                 </ul>
                                 <a href="https://map.alsace.team" className="mt-6 text-gray-400 text-sm">
-                                    了解更多
+                                    立即申请
                                 </a>
                             </motion.div>
                         </ScrollAnimationWrapper>
@@ -167,7 +167,7 @@ const MapManager = () => {
                         </motion.h3>
                         <motion.p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12"
                                   variants={scrollAnimation}>
-                            地图托管现在被各大建筑团队、高校社团、个人建筑师用于作品创作、校园还原、视频制作、作品展示等用途。
+                            地图托管现在被各大建筑团队、高校社团、个人建筑师用于作品创作、高校复原工程、视频制作、项目展示等用途。
                         </motion.p>
                     </ScrollAnimationWrapper>
                     <ScrollAnimationWrapper>
@@ -221,7 +221,7 @@ const MapManager = () => {
                                     用心欢迎玩家
                                 </h3>
                                 <p className="mt-4 text-black-500">
-                                    我们管理团队十分关切每一位玩家的游戏体验，希望热心的玩家们提出自己宝贵的意见，每一份建议对我们来说都弥足珍贵，来帮助我们建设更好的阿尔萨斯工业园社区。 </p>
+                                    我们的技术支持团队十分关切每一位玩家的游戏体验，希望热心的玩家们提出自己宝贵的意见，每一份建议对我们来说都弥足珍贵，来帮助我们建设更好的阿尔萨斯工业园社区。 </p>
                                 <p className="mt-4 text-black-500">
                                     <b>在这里，任何疑问都能获得耐心的解答。</b>
                                 </p>
@@ -251,7 +251,7 @@ const MapManager = () => {
                                     便捷的社区服务
                                 </h3>
                                 <p className="my-2 text-black-500 lg:h-1/2 pt-2 pb-3">
-                                    工业园的规则并不复杂，我们一切以用户体验为主，诚以热爱打造社区。
+                                    工业园没有任何规则约束，我们一切以用户体验为主，诚以热爱打造社区。
                                     希望你能在工业园享受自由自在地建筑。
                                 </p>
                                 <p className="my-2 text-black-500 lg:h-1/2 pt-2 pb-3">
@@ -262,18 +262,15 @@ const MapManager = () => {
                         </ScrollAnimationWrapper>
                     </div>
 
-                    <ScrollAnimationWrapper>
-                        <motion.h3
-                            variants={scrollAnimation}
+                    <div
                             className="pb-16 text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
                             聆听大家的声音
-                        </motion.h3>
-                    </ScrollAnimationWrapper>
-                    <ScrollAnimationWrapper className="w-full flex flex-col">
-                        <motion.div variants={scrollAnimation}>
+                    </div>
+                    <div className="w-full flex flex-col">
+                        <div variants={scrollAnimation}>
                             <Testimoni/>
-                        </motion.div>
-                    </ScrollAnimationWrapper>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -28,7 +28,7 @@ const Hero = ({
 
     return (
         <div className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto" id="about">
-                <motion.div
+                <div
                     className="grid grid-flow-row md:grid-flow-col grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-8 py-6 sm:py-16"
                     variants={scrollAnimation}
                 >
@@ -54,7 +54,7 @@ const Hero = ({
                         </a>
                     </div>
                     <div className="flex w-full">
-                        <motion.div className="h-full w-full" variants={scrollAnimation}>
+                        <div className="h-full w-full" variants={scrollAnimation}>
                             <Image
                                 src="https://ns.alsace.team/service/images/img/全家福202410.png?imageMogr2/format"
                                 alt="团队全家福"
@@ -63,16 +63,16 @@ const Hero = ({
                                 height={350}
                                 layout="responsive"
                             />
-                        </motion.div>
+                        </div>
                     </div>
-                </motion.div>
+                </div>
 
             <div className="relative w-full flex">
-                <ScrollAnimationWrapper
+                <div
                     className="rounded-lg w-full grid grid-flow-row sm:grid-cols-1 md:grid-cols-3 py-9 divide-y-2 md:divide-y-0 md:divide-x-2 divide-gray-100 bg-white-500 z-10"
                 >
                     {listUser.map((listUsers, index) => (
-                        <motion.div
+                        <div
                             className="flex items-center justify-start sm:justify-center py-4 sm:py-6 w-8/12 px-4 sm:w-auto mx-auto sm:mx-0"
                             key={index}
                             custom={{ duration: 2 + index }}
@@ -89,9 +89,9 @@ const Hero = ({
                                     <p className="text-lg text-black-500">{listUsers.name}</p>
                                 </div>
                             </div>
-                        </motion.div>
+                        </div>
                     ))}
-                </ScrollAnimationWrapper>
+                </div>
                 <div
                     className="absolute bg-black-600 opacity-5 w-11/12 rounded-lg h-64 sm:h-48 top-0 mt-8 mx-auto left-0 right-0"
                     style={{ filter: "blur(114px)" }}
