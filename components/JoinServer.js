@@ -23,7 +23,7 @@ const JoinServer = () => {
                             loading="lazy"
                             width="400"
                             height="400"
-                            src="https://minotar.net/helm/Pudding_Java/100.png"
+                            src="https://minotar.net/helm/gaye/100.png"
                             alt="member photo"
                             className="h-8 w-8 rounded-xl object-cover"
                         />
@@ -31,7 +31,7 @@ const JoinServer = () => {
                             loading="lazy"
                             width="200"
                             height="200"
-                            src="https://minotar.net/helm/MATSharer/100.png"
+                            src="https://minotar.net/helm/Pudding_Java/100.png"
                             alt="member photo"
                             className="h-12 w-12 rounded-xl object-cover"
                         />
@@ -47,7 +47,7 @@ const JoinServer = () => {
                             loading="lazy"
                             width="200"
                             height="200"
-                            src="https://minotar.net/helm/CHuNan/100.png"
+                            src="https://minotar.net/helm/CHuNan_/100.png"
                             alt="member photo"
                             className="relative h-12 w-12 rounded-xl object-cover"
                         />
