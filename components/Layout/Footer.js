@@ -85,7 +85,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className=" row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
-                    <p className="text-black-600 mb-4 font-medium text-lg">合作伙伴</p>
+                    <p className="text-black-600 mb-4 font-medium text-lg"><br/></p>
                     <ul className="text-black-500 ">
                         <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
                             <a href="https://www.mualliance.cn" target="_blank"
@@ -97,6 +97,22 @@ const Footer = () => {
                         <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
                             <a href="https://mc-cloud-town.github.io/" target="_blank"
                                rel="noopener noreferrer">雲鎮工藝CTEC</a>
+                        </li>
+                        <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                            <a href="https://wiki.infinf.info/" target="_blank"
+                               rel="noopener noreferrer">INF 万象筑境</a>
+                        </li>
+                        <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                            <a href="https://space.bilibili.com/3546875756022415" target="_blank"
+                               rel="noopener noreferrer">NodeMC 节点纪元</a>
+                        </li>
+                        <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                            <a href="https://www.artform.cn" target="_blank"
+                               rel="noopener noreferrer">艺式游戏</a>
+                        </li>
+                        <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                            <a href="https://space.bilibili.com/23467873" target="_blank"
+                               rel="noopener noreferrer">沉梦之渊</a>
                         </li>
                     </ul>
                 </div>
