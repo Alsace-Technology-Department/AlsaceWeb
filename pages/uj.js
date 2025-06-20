@@ -39,7 +39,7 @@ const UjPage = () => {
 
     return (
         <>
-            <SeoHead title="Uj页面标题" />
+            <SeoHead title="跳转中，请稍后..." />
             <Layout>
                 <div className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto py-16">
                     <p id="message">Redirecting...(跳转中，请稍后...)</p>
