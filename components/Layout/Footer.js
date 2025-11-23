@@ -12,7 +12,7 @@ const Footer = () => {
             <div
                 className="max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-3 sm:grid-cols-12 gap-4">
                 <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
-                    <img src="https://ns.alsace.team/service/images/logo/logo-web.webp" alt="Logo"
+                    <img src="https://ns.alsace.team/service/images/logo/25/AlsaceIndustrialPark.svg" alt="Logo"
                          className="w-64"/>
                     <p className="mb-4">
                         工业园不仅仅是一个建筑服务器，它是一个汇聚创意、技术与乐趣的社区
