@@ -36,7 +36,7 @@ const Hero = ({
                         <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
                             阿尔萨斯工业园社区
                             <br />
-                            <strong>Usine d' Alsace Community</strong>.
+                            <strong>Alsace Industrial Park Community</strong>.
                         </h1>
                         <p className="text-black-500 mt-4 mb-6">
                             阿尔萨斯工业园社区成立于2020年，是一个拥有资深运营管理经验的 Minecraft 公益建筑服务器由阿尔萨斯工业团队倾力运营与维护，面向所有热爱建筑玩法的玩家。
