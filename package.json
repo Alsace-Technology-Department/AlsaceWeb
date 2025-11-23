@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export"
+    "export": "next build && next export",
+    "prebuild": "rm -rf node_modules && npm install"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
